@@ -35,7 +35,7 @@ const { cloudProvider } = require('cloud-detect-js');
   await cloudProvider();
   // 'gcp'
 
-  await cloudProvider((excluded = ['aws', 'oracle']));
+  await cloudProvider(['aws', 'oracle']); //excluded
   // 'unknown'
 })();
 ```
