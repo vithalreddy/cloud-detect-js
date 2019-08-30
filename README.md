@@ -1,5 +1,12 @@
 # cloud-detect-js
 
+![License](https://img.shields.io/npm/l/cloud-detect-js?style=for-the-badge)
+![Version](https://img.shields.io/npm/v/cloud-detect-js?style=for-the-badge)
+![Dependencies](https://img.shields.io/david/vithalreddy/cloud-detect-js?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/vithalreddy/cloud-detect-js?style=for-the-badge)
+![Size](https://img.shields.io/bundlephobia/minzip/cloud-detect-js?style=for-the-badge)
+![Node](https://img.shields.io/node/v/cloud-detect-js?style=for-the-badge)
+
 `cloud-detect-js` is a Node.JS module that determines a host's cloud provider. Highly inspired by the Go based [Satellite](https://github.com/banzaicloud/satellite), `cloud-detect-js` uses the same techniques (file systems and provider metadata) to properly identify cloud providers. Currently Supports AWS, GCP, Azure, Alibaba, Oracle, and Digital Ocean Cloud Providers.
 
 ## Installation
