@@ -39,3 +39,38 @@ const { cloudProvider } = require('cloud-detect-js');
   // 'unknown'
 })();
 ```
+
+## CLI Usage
+
+## Installation
+
+Via NPM:
+
+```bash
+npm install -f cloud-detect-js
+```
+
+Via Yarn:
+
+```bash
+yarn add global cloud-detect-js
+```
+
+## Usage
+
+```bash
+Usage: cloud-detect-js [options] [command]
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+
+Commands:
+  detect|d       Detect's Host Machine's Cloud Provider
+
+cloud-detect-js d
+# aws
+
+cloud-detect-js detect
+# gcp
+```
