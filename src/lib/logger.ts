@@ -1,3 +1,5 @@
-import debug from 'debug';
-
-export default debug('cloud-detect');
+export default function (message: string | Error) {
+  if (process.env.CD_DEBUG) {
+    console.debug(message)
+  }
+};
