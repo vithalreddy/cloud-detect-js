@@ -47,7 +47,7 @@ const { cloudProvider } = require('cloud-detect-js');
 Via NPM:
 
 ```bash
-npm install -f cloud-detect-js
+npm install -g cloud-detect-js
 ```
 
 Via Yarn:
