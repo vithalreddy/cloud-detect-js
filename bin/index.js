@@ -1,5 +1,6 @@
-const commander = require('commander');
+#!/usr/bin/env node
 
+const commander = require('commander');
 const { cloudProvider } = require('../build');
 const pkg = require('../package.json');
 
@@ -13,6 +14,7 @@ async function detect() {
 program
   .version(pkg.version)
   .command('detect')
+  .alias('d')
   .description("Detect's Host Machine's Cloud Provider")
   .action(detect);
 
